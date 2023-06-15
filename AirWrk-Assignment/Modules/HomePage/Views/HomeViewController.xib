@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="AirWrk_Assignment" customModuleProvider="target">
             <connections>
                 <outlet property="searchBar" destination="u21-hh-1tg" id="zQo-cK-V2Y"/>
+                <outlet property="tableView" destination="nNV-Na-HvL" id="iaw-jB-M17"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -35,14 +36,22 @@
                         <outlet property="delegate" destination="-1" id="qwd-LX-R6N"/>
                     </connections>
                 </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nNV-Na-HvL">
+                    <rect key="frame" x="0.0" y="194" width="393" height="658"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.61955250850340138" green="0.74191432823129255" blue="0.83395727040816336" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="nNV-Na-HvL" secondAttribute="bottom" id="3ib-on-Jdg"/>
                 <constraint firstItem="kfA-Ni-xRc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6DB-Kf-WRr"/>
                 <constraint firstItem="u21-hh-1tg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="EzJ-Lm-ukS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nNV-Na-HvL" secondAttribute="trailing" id="Vef-ml-EJZ"/>
                 <constraint firstItem="u21-hh-1tg" firstAttribute="top" secondItem="kfA-Ni-xRc" secondAttribute="bottom" constant="27" id="ZT0-Qp-ped"/>
                 <constraint firstItem="kfA-Ni-xRc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="dwi-P6-tEQ"/>
+                <constraint firstItem="nNV-Na-HvL" firstAttribute="top" secondItem="u21-hh-1tg" secondAttribute="bottom" id="il2-60-ehs"/>
+                <constraint firstItem="nNV-Na-HvL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="vyC-2g-WuZ"/>
                 <constraint firstItem="u21-hh-1tg" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="8" id="zrp-xJ-XWh"/>
             </constraints>
             <point key="canvasLocation" x="-100" y="20"/>

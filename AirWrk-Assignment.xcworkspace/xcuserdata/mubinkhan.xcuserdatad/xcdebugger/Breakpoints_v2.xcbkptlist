@@ -3,4 +3,278 @@
    uuid = "D8A56A4E-AD4D-46D0-B33F-B6322B8331B0"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DD1CFB7-813E-4C02-A56E-2A3A20B2CC94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirwrkSearchData+CoreDataClass.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "findOrCreate(text:in:id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B677804-E27C-41F0-B8EE-74AEBCE62280"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "deleteTextFromDB(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B677804-E27C-41F0-B8EE-74AEBCE62280 - ed9a16102fd15671"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AirWrk_Assignment.HomePagePresenter.deleteTextFromDB(id: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "AirWrk-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mubinkhan/Desktop/Assignments/AirWrk-Assignment/AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "9B677804-E27C-41F0-B8EE-74AEBCE62280 - ed9a16102fd15671"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AirWrk_Assignment.HomePagePresenter.deleteTextFromDB(id: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "AirWrk-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mubinkhan/Desktop/Assignments/AirWrk-Assignment/AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DA76B56-5C0D-4183-B0FB-F9DD6A701B12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "deleteTextFromDB(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DA76B56-5C0D-4183-B0FB-F9DD6A701B12 - 253467a3242d7e11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirWrk_Assignment.HomePagePresenter.deleteTextFromDB(id: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "AirWrk-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mubinkhan/Desktop/Assignments/AirWrk-Assignment/AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "2DA76B56-5C0D-4183-B0FB-F9DD6A701B12 - 253467a3242d79d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirWrk_Assignment.HomePagePresenter.deleteTextFromDB(id: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "AirWrk-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mubinkhan/Desktop/Assignments/AirWrk-Assignment/AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3B65E91-D825-4DB3-88C0-06A0785F3FC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "resetCachingTexts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F469E8AF-CE73-497F-A01C-F5A0CB40DF5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "resetCachingTexts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84F4F00D-5CEF-4E58-84E2-E3DDF52363D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirwrkSearchData+CoreDataClass.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "fetchAllText(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39CA5893-ED48-4364-BA97-856540D964E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirwrkSearchData+CoreDataClass.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchAllText(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F66DF6ED-80A8-4A33-80E4-CA998663D0DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirwrkSearchData+CoreDataClass.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "fetchAllText(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92DF0177-B878-4827-BD58-96F474C28C7D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "saveNewTextToDB(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D20AF7A-BFDC-496A-B02C-A1ACE4358B74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "saveNewTextToDB(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D20AF7A-BFDC-496A-B02C-A1ACE4358B74 - 1c91fd43c532e497"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirWrk_Assignment.HomePagePresenter.saveNewTextToDB(text: Swift.String) -&gt; ()"
+                  moduleName = "AirWrk-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mubinkhan/Desktop/Assignments/AirWrk-Assignment/AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "0D20AF7A-BFDC-496A-B02C-A1ACE4358B74 - 1c91fd43c532e497"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirWrk_Assignment.HomePagePresenter.saveNewTextToDB(text: Swift.String) -&gt; ()"
+                  moduleName = "AirWrk-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mubinkhan/Desktop/Assignments/AirWrk-Assignment/AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D304C693-1D18-4A6D-BD8C-8BA217024DEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirWrk-Assignment/Modules/HomePage/Presenter/HomePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "saveNewTextToDB(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
