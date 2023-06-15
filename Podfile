@@ -7,5 +7,6 @@ target 'AirWrk-Assignment' do
 
   # Pods for AirWrk-Assignment
 	pod 'Moya', '~> 15.0'
+        pod 'SDWebImage', '~> 5.0'
 
 end

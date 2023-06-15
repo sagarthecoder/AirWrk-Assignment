@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		865B61032A3A0A310010D4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B61022A3A0A310010D4E2 /* AppDelegate.swift */; };
 		865B61052A3A0A310010D4E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B61042A3A0A310010D4E2 /* SceneDelegate.swift */; };
-		865B61072A3A0A310010D4E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B61062A3A0A310010D4E2 /* ViewController.swift */; };
 		865B610A2A3A0A310010D4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865B61082A3A0A310010D4E2 /* Main.storyboard */; };
 		865B610D2A3A0A310010D4E2 /* AirWrk_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 865B610B2A3A0A310010D4E2 /* AirWrk_Assignment.xcdatamodeld */; };
 		865B610F2A3A0A320010D4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865B610E2A3A0A320010D4E2 /* Assets.xcassets */; };
@@ -20,6 +19,18 @@
 		865B61252A3A1B2F0010D4E2 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B61242A3A1B2F0010D4E2 /* Repositories.swift */; };
 		865B61272A3A1DB40010D4E2 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B61262A3A1DB40010D4E2 /* GithubApi.swift */; };
 		865B612A2A3A236C0010D4E2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B61292A3A236C0010D4E2 /* NetworkManager.swift */; };
+		868D3CF22A3B59C4004BF3DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D3CF02A3B59C4004BF3DA /* HomeViewController.swift */; };
+		868D3CF32A3B59C4004BF3DA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868D3CF12A3B59C4004BF3DA /* HomeViewController.xib */; };
+		868D3CF82A3B6309004BF3DA /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D3CF62A3B6309004BF3DA /* RepositoriesViewController.swift */; };
+		868D3CF92A3B6309004BF3DA /* RepositoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868D3CF72A3B6309004BF3DA /* RepositoriesViewController.xib */; };
+		868D3CFC2A3B641A004BF3DA /* RepositoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D3CFA2A3B641A004BF3DA /* RepositoriesCollectionViewCell.swift */; };
+		868D3CFD2A3B641A004BF3DA /* RepositoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868D3CFB2A3B641A004BF3DA /* RepositoriesCollectionViewCell.xib */; };
+		868D3D002A3B66EC004BF3DA /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D3CFF2A3B66EC004BF3DA /* NSObject+Extension.swift */; };
+		868D3D042A3B7153004BF3DA /* RepositoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D3D022A3B7153004BF3DA /* RepositoryDetailViewController.swift */; };
+		868D3D052A3B7153004BF3DA /* RepositoryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868D3D032A3B7153004BF3DA /* RepositoryDetailViewController.xib */; };
+		868D3D072A3B7F64004BF3DA /* UserPublicRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D3D062A3B7F64004BF3DA /* UserPublicRepos.swift */; };
+		868D3D0C2A3B8286004BF3DA /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D3D0A2A3B8286004BF3DA /* UserViewController.swift */; };
+		868D3D0D2A3B8286004BF3DA /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868D3D0B2A3B8286004BF3DA /* UserViewController.xib */; };
 		C647CFE81663010164536B37 /* Pods_AirWrk_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CE6E2E97F6E2024ECF8E52 /* Pods_AirWrk_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +38,6 @@
 		865B60FF2A3A0A310010D4E2 /* AirWrk-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirWrk-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		865B61022A3A0A310010D4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		865B61042A3A0A310010D4E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		865B61062A3A0A310010D4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		865B61092A3A0A310010D4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		865B610C2A3A0A310010D4E2 /* AirWrk_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirWrk_Assignment.xcdatamodel; sourceTree = "<group>"; };
 		865B610E2A3A0A320010D4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +49,18 @@
 		865B61242A3A1B2F0010D4E2 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
 		865B61262A3A1DB40010D4E2 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
 		865B61292A3A236C0010D4E2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		868D3CF02A3B59C4004BF3DA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		868D3CF12A3B59C4004BF3DA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		868D3CF62A3B6309004BF3DA /* RepositoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		868D3CF72A3B6309004BF3DA /* RepositoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesViewController.xib; sourceTree = "<group>"; };
+		868D3CFA2A3B641A004BF3DA /* RepositoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		868D3CFB2A3B641A004BF3DA /* RepositoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		868D3CFF2A3B66EC004BF3DA /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		868D3D022A3B7153004BF3DA /* RepositoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailViewController.swift; sourceTree = "<group>"; };
+		868D3D032A3B7153004BF3DA /* RepositoryDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryDetailViewController.xib; sourceTree = "<group>"; };
+		868D3D062A3B7F64004BF3DA /* UserPublicRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPublicRepos.swift; sourceTree = "<group>"; };
+		868D3D0A2A3B8286004BF3DA /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		868D3D0B2A3B8286004BF3DA /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
 		89CE6E2E97F6E2024ECF8E52 /* Pods_AirWrk_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirWrk_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67AA756E57EE6C9E50D49FE /* Pods-AirWrk-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirWrk-Assignment.release.xcconfig"; path = "Target Support Files/Pods-AirWrk-Assignment/Pods-AirWrk-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		D166ACD59A0A28B1A9CFA0DE /* Pods-AirWrk-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirWrk-Assignment.debug.xcconfig"; path = "Target Support Files/Pods-AirWrk-Assignment/Pods-AirWrk-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,7 +111,6 @@
 				865B61192A3A113B0010D4E2 /* Modules */,
 				865B61022A3A0A310010D4E2 /* AppDelegate.swift */,
 				865B61042A3A0A310010D4E2 /* SceneDelegate.swift */,
-				865B61062A3A0A310010D4E2 /* ViewController.swift */,
 				865B61082A3A0A310010D4E2 /* Main.storyboard */,
 				865B610E2A3A0A320010D4E2 /* Assets.xcassets */,
 				865B61102A3A0A320010D4E2 /* LaunchScreen.storyboard */,
@@ -102,6 +123,11 @@
 		865B61192A3A113B0010D4E2 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				868D3D082A3B8267004BF3DA /* UserPage */,
+				868D3D012A3B70EE004BF3DA /* RepositoryDetailPage */,
+				868D3CFE2A3B66C5004BF3DA /* Extensions */,
+				868D3CF42A3B62DD004BF3DA /* RepositoriesPage */,
+				868D3CEF2A3B59B5004BF3DA /* HomePage */,
 				865B611A2A3A11470010D4E2 /* Service */,
 			);
 			path = Modules;
@@ -132,6 +158,7 @@
 				865B61202A3A14920010D4E2 /* User.swift */,
 				865B61222A3A16970010D4E2 /* Repository.swift */,
 				865B61242A3A1B2F0010D4E2 /* Repositories.swift */,
+				868D3D062A3B7F64004BF3DA /* UserPublicRepos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -142,6 +169,68 @@
 				865B61292A3A236C0010D4E2 /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		868D3CEF2A3B59B5004BF3DA /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				868D3CF02A3B59C4004BF3DA /* HomeViewController.swift */,
+				868D3CF12A3B59C4004BF3DA /* HomeViewController.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		868D3CF42A3B62DD004BF3DA /* RepositoriesPage */ = {
+			isa = PBXGroup;
+			children = (
+				868D3CF52A3B62F4004BF3DA /* Views */,
+			);
+			path = RepositoriesPage;
+			sourceTree = "<group>";
+		};
+		868D3CF52A3B62F4004BF3DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				868D3CF62A3B6309004BF3DA /* RepositoriesViewController.swift */,
+				868D3CF72A3B6309004BF3DA /* RepositoriesViewController.xib */,
+				868D3CFA2A3B641A004BF3DA /* RepositoriesCollectionViewCell.swift */,
+				868D3CFB2A3B641A004BF3DA /* RepositoriesCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		868D3CFE2A3B66C5004BF3DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				868D3CFF2A3B66EC004BF3DA /* NSObject+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		868D3D012A3B70EE004BF3DA /* RepositoryDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				868D3D022A3B7153004BF3DA /* RepositoryDetailViewController.swift */,
+				868D3D032A3B7153004BF3DA /* RepositoryDetailViewController.xib */,
+			);
+			path = RepositoryDetailPage;
+			sourceTree = "<group>";
+		};
+		868D3D082A3B8267004BF3DA /* UserPage */ = {
+			isa = PBXGroup;
+			children = (
+				868D3D092A3B826F004BF3DA /* Views */,
+			);
+			path = UserPage;
+			sourceTree = "<group>";
+		};
+		868D3D092A3B826F004BF3DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				868D3D0A2A3B8286004BF3DA /* UserViewController.swift */,
+				868D3D0B2A3B8286004BF3DA /* UserViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EB30C5C198BF1CA7FDAB3897 /* Frameworks */ = {
@@ -212,9 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868D3D052A3B7153004BF3DA /* RepositoryDetailViewController.xib in Resources */,
 				865B61122A3A0A320010D4E2 /* LaunchScreen.storyboard in Resources */,
 				865B610F2A3A0A320010D4E2 /* Assets.xcassets in Resources */,
+				868D3CF92A3B6309004BF3DA /* RepositoriesViewController.xib in Resources */,
 				865B610A2A3A0A310010D4E2 /* Main.storyboard in Resources */,
+				868D3D0D2A3B8286004BF3DA /* UserViewController.xib in Resources */,
+				868D3CFD2A3B641A004BF3DA /* RepositoriesCollectionViewCell.xib in Resources */,
+				868D3CF32A3B59C4004BF3DA /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +362,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				865B61272A3A1DB40010D4E2 /* GithubApi.swift in Sources */,
+				868D3D0C2A3B8286004BF3DA /* UserViewController.swift in Sources */,
 				865B61232A3A16970010D4E2 /* Repository.swift in Sources */,
 				865B612A2A3A236C0010D4E2 /* NetworkManager.swift in Sources */,
-				865B61072A3A0A310010D4E2 /* ViewController.swift in Sources */,
+				868D3D042A3B7153004BF3DA /* RepositoryDetailViewController.swift in Sources */,
+				868D3CFC2A3B641A004BF3DA /* RepositoriesCollectionViewCell.swift in Sources */,
+				868D3CF82A3B6309004BF3DA /* RepositoriesViewController.swift in Sources */,
+				868D3D072A3B7F64004BF3DA /* UserPublicRepos.swift in Sources */,
 				865B61032A3A0A310010D4E2 /* AppDelegate.swift in Sources */,
 				865B61212A3A14920010D4E2 /* User.swift in Sources */,
 				865B610D2A3A0A310010D4E2 /* AirWrk_Assignment.xcdatamodeld in Sources */,
+				868D3CF22A3B59C4004BF3DA /* HomeViewController.swift in Sources */,
 				865B61252A3A1B2F0010D4E2 /* Repositories.swift in Sources */,
 				865B611F2A3A11B70010D4E2 /* Owner.swift in Sources */,
 				865B61052A3A0A310010D4E2 /* SceneDelegate.swift in Sources */,
+				868D3D002A3B66EC004BF3DA /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +529,6 @@
 				INFOPLIST_FILE = "AirWrk-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -459,7 +558,6 @@
 				INFOPLIST_FILE = "AirWrk-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
